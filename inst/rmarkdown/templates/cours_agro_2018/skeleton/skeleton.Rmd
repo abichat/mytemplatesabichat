@@ -1,0 +1,37 @@
+---
+title: "Statistique 2A"
+subtitle: "Chapitre I - Régression linéaire simple"
+author: "Antoine Bichat - Émilie Lebarbier<br>AgroParisTech"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+    css: ["default-agro.css", "default-fonts"]
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(echo = TRUE, fig.align = "center", fig.retina = 2, comment = NA)
+```
+
+# Title
+
+.pull-left[
+Left
+]
+
+--
+
+.pull-right[
+Right
+]
+
+---
+class: center, middle, inverse
+
+# Des questions ?
+
+.footnote[Slides créées avec le package <b><a href="https://github.com/yihui/xaringan" target="_blank">xaringan</a></b>.]

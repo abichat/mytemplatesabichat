@@ -1,0 +1,33 @@
+---
+title: "Title"
+author: "Antoine Bichat"
+date: "`r format(Sys.time(), '%d %B %Y, %H:%M')`"
+output: 
+  html_document:
+   toc: true
+   toc_float: true
+   number_sections: false
+   highlight: tango
+  pdf_document: default
+# bibliography: bib.bib
+---
+
+<!-- <style> -->
+<!-- #TOC { -->
+<!--   background: url("http://www.enterome.fr/site/wp-content/uploads/2015/10/ENTEROME-Bioscience-logo.png"); -->
+<!--   background-size: contain; -->
+<!--   padding-top: 40px !important; -->
+<!--   background-repeat: no-repeat; -->
+<!-- } -->
+<!-- </style> -->
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.align = "center", 
+                      out.width = "100%")
+```
+
+# One
+
+## Two
+
+# Three
