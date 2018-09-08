@@ -1,5 +1,5 @@
 ---
-title: "Statistique 2A"
+title: "Bases du modèle linéaire"
 subtitle: "Chapitre I - Régression linéaire simple"
 author: "Antoine Bichat - Émilie Lebarbier<br>AgroParisTech"
 output:
