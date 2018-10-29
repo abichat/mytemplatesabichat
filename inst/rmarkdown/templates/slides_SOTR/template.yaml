@@ -1,0 +1,4 @@
+name: Slides SOTR
+description: >
+   Template pour les présentations à State of the R
+create_dir: TRUE

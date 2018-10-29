@@ -1,0 +1,80 @@
+---
+title: "Title"
+author: "Antoine Bichat"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      slideNumberFormat: '%current% / %total% &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; <img src="sticker_sotr.png" height=60/>'
+    css: ["sotr.css", "default-fonts"]
+---
+class: title-slide, center, middle
+count: false
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(echo = TRUE, fig.align = "center", fig.width = 8,
+                      fig.retina = 2, comment = " ")
+```
+
+<br><br><br>
+
+# Title
+
+<br><br><br><br><br><br><br><br><br><br><br>
+
+### Antoine Bichat
+<div style = "margin-top: -30px"></div>
+### Date - AgroParisTech
+
+---
+class: center, middle, inverse
+
+# Section
+
+
+---
+## Title
+
+Text
+
+.footnote[Footnote]
+
+--
+
+<br>
+
+.pull-left[
+Left
+]
+
+.pull-left[
+Right
+]
+
+
+---
+class: center, middle, inverse
+count:false
+
+<br> 
+
+# Thanks for you attention!
+
+<br>
+
+#### `r icon::fa("github", size = 1)` <a href="https://github.com/abichat" target="_blank">@abichat</a>
+<div style = "margin-top: -10px"></div>
+#### `r icon::fa("twitter", size = 1)` <a href="https://twitter.com/_abichat" target="_blank">@_abichat</a>
+<div style = "margin-top: -10px"></div>
+#### `r icon::fa("linkedin", size = 1)` <a href="https://www.linkedin.com/in/antoinebichat" target="_blank">antoinebichat</a>
+<div style = "margin-top: -10px"></div>
+#### `r icon::fa("link", size = 1)` <a href="https://abichat.github.io" target="_blank">abichat.github.io</a>
+<div style = "margin-top: -10px"></div>
+####`r icon::fa("envelope", size = 1)` <a href="mailto:antoine.bichat@mines-nancy.org?subject=SOTR">antoine.bichat@mines-nancy.org</a>
+
+
