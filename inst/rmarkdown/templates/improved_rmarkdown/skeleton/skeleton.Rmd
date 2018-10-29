@@ -21,6 +21,17 @@ output:
 <!-- } -->
 <!-- </style> -->
 
+<script>
+    $(document).ready(function() {
+      $items = $('div#TOC li');
+      $items.each(function(idx) {
+        num_ul = $(this).parentsUntil('#TOC').length;
+        $(this).css({'text-indent': num_ul * 10, 'padding-left': 10});
+      });
+
+    });
+</script>
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, fig.align = "center", 
                       out.width = "100%")
@@ -28,6 +39,8 @@ knitr::opts_chunk$set(echo = TRUE, fig.align = "center",
 
 # One
 
-## Two
+## One and a half
 
-# Three
+### One and a half and a quarter
+
+# Two
