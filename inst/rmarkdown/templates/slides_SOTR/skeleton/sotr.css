@@ -1,20 +1,12 @@
-a, a > code {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  text-shadow: black 0.1em 0.1em 0.2em;
-}
 
-.footnote {
-  position: absolute;
-  bottom: 2em;
-  padding-right: 4em;
-  padding-left: 2.5em;
-  font-size: 90%;
-}
+/*
+#357fac / rgb(53, 127, 172) / Dark moderate blue - logo
+#2b8cbe / rgb(43, 140, 190) / Strong blue - logo
+#ac357f / rgb(172, 53, 127) / Strong pink - triadic color
+*/
 
-.remark-code-line-highlighted { 
-  background-color: #ffff88; 
-}
+
+/* Main slide */
 
 .remark-slide-content {
   padding-top: 0px;
@@ -35,10 +27,38 @@ a, a > code {
   margin-top: 0px;
 }
 
+.remark-code-line-highlighted {
+  background-color: #ffff88; /* Very light yellow */
+}
+
+a {
+  color: #2b8cbe;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+}
+
+a:hover {
+    font-size: 1.2em;
+    /*color: #ac357f;*/
+}
+
+
+/* Footnote */
+
+.footnote {
+  position: absolute;
+  bottom: 1.2em;
+  padding-right: 4em;
+  padding-left: 2.7em;
+  font-size: 90%;
+  z-index: 1;
+}
+
+
 /* Inverse */
 
 .inverse {
-  background-color: rgb(53, 127, 172);
+  background-color: #357fac;
   color: #fff;
   text-shadow: black 0.05em 0.05em 0.1em;
 }
@@ -50,7 +70,15 @@ a, a > code {
   display: none;
 }
 
+.inverse a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+}
+
+
 /* Title slide */
+
 .title-slide {
   background-color: #fff;
   background-image: url(sticker_sotr.png);
@@ -68,24 +96,29 @@ a, a > code {
 
 
 /* Two-column layout */
+
 .left-column {
   color: #777;
   width: 20%;
   height: 92%;
   float: left;
 }
+
 .left-column h2:last-of-type, .left-column h3:last-child {
   color: #000;
 }
+
 .right-column {
   width: 75%;
   float: right;
   padding-top: 1em;
 }
+
 .pull-left {
   float: left;
   width: 47%;
 }
+
 .pull-right {
   float: right;
   width: 47%;
@@ -93,6 +126,10 @@ a, a > code {
 .pull-right ~ * {
   clear: both;
 }
+
+
+/* Miscellaneous */
+
 img, video, iframe {
   max-width: 100%;
 }

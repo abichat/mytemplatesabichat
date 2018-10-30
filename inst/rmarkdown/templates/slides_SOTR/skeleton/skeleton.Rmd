@@ -9,7 +9,7 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-      slideNumberFormat: '%current% / %total% &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; <img src="sticker_sotr.png" height=60/>'
+      slideNumberFormat: '%current% / %total% &nbsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; <img src="sticker_sotr.png" height=60/>'
     css: ["sotr.css", "default-fonts"]
 ---
 class: title-slide, center, middle
@@ -40,7 +40,7 @@ class: center, middle, inverse
 ---
 ## Title
 
-Text
+Text and <a href="https://github.com/abichat/mytemplatesabichat" target="_blank">link</a>
 
 .footnote[Footnote]
 
