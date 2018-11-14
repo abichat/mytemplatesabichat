@@ -13,6 +13,9 @@
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 10px;
+  background-image: url(sticker_sotr-transp.png);
+  background-size: 60px auto;
+  background-position: 98% 98%;
 }
 
 .remark-slide-content > h1:first-of-type {
@@ -29,6 +32,11 @@
 
 .remark-code-line-highlighted {
   background-color: #ffff88; /* Very light yellow */
+}
+
+.remark-slide-number {
+  bottom: unset;
+  top:12px;
 }
 
 a {
@@ -48,8 +56,7 @@ a:hover {
 .footnote {
   position: absolute;
   bottom: 1.2em;
-  padding-right: 4em;
-  padding-left: 2.7em;
+  padding-right: 4.7em;
   font-size: 90%;
   z-index: 1;
 }
@@ -61,6 +68,7 @@ a:hover {
   background-color: #357fac;
   color: #fff;
   text-shadow: black 0.05em 0.05em 0.1em;
+  background-image: unset;
 }
 .inverse h1, .inverse h2, .inverse h3 {
   color: #fff;
@@ -94,6 +102,18 @@ a:hover {
   text-shadow: #a6bddb 0.08em 0.08em 0.08em;
 }
 
+
+/* Slide without logo */
+
+.nologo {
+  background-image: unset;
+}
+
+/* Slide without slide number*/
+
+.noslidenumber .remark-slide-number {
+  display: none;
+}
 
 /* Two-column layout */
 

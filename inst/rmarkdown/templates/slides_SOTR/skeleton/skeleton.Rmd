@@ -9,7 +9,7 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-      slideNumberFormat: '%current% / %total% &nbsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; <img src="sticker_sotr.png" height=60/>'
+      slideNumberFormat: '%current% / %total%'
     css: ["sotr.css", "default-fonts"]
 ---
 class: title-slide, center, middle
@@ -55,6 +55,18 @@ Left
 .pull-left[
 Right
 ]
+
+
+---
+class: noslidenumber
+
+## No slide number
+
+
+---
+class: nologo
+
+## No logo
 
 
 ---
