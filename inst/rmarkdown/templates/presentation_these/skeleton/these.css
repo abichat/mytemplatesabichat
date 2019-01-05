@@ -11,7 +11,7 @@
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 10px;
-  background-image: url(logos_rattachement.png);
+  background-image: url(img/logos_rattachement.png);
   background-size: 130px auto;
   background-position: 98% 98%;
 }
@@ -63,7 +63,7 @@ a:hover {
 
 .inverse {
   color: #ffffff;
-  background-image: url(fond_cercles.png);
+  background-image: url(img/fond_cercles.png);
   background-position: center;
 	background-size: 110%;
   text-shadow: black 0.05em 0.05em 0.1em;
@@ -87,7 +87,7 @@ a:hover {
 /* Title slide */
 
 .title-slide {
-  background-image: url(fond_bact.png);
+  background-image: url(img/fond_bact.png);
 	background-position: center;
 	background-size: 110%;
 	color: #fff;
