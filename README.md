@@ -13,8 +13,12 @@ This package contains my personal rmarkdown templates:
         <a href="https://stateofther.github.io" target="_blank">State of
         the R</a>.
 
+You can also use my package default setup with
+`mytemplatesabichat::init_package()`.
+
 Installation:
 
 ``` r
-devtools::install_github("abichat/mytemplatesabichat")
+# install.packages(remotes)
+remotes::install_github("abichat/mytemplatesabichat")
 ```
