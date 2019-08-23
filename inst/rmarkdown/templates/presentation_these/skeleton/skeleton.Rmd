@@ -22,15 +22,20 @@ knitr::opts_chunk$set(echo = TRUE, fig.align = "center", fig.width = 8,
 ```
 
 
-.band[
+
 # This is a very long title (or not...)
-<div style = "margin-top: -20px"></div>
-## Subtitle
+
+<br>
 
 ### Antoine Bichat
 <div style = "margin-top: -30px"></div>
+
 ### Date - Place
-]
+
+<br>
+
+#### Caption
+
 
 ---
 class: center, middle, inverse
@@ -71,23 +76,20 @@ class: nologo
 
 
 ---
-class: center, middle, inverse
-count:false
-
-<br> 
-
-# Thanks for you attention!
+class: title-slide, center, middle
+count: false
 
 <br>
 
-#### `r icon::fa("github", size = 1)` <a href="https://github.com/abichat" target="_blank">@abichat</a>
-<div style = "margin-top: -10px"></div>
-#### `r icon::fa("twitter", size = 1)` <a href="https://twitter.com/_abichat" target="_blank">@_abichat</a>
-<div style = "margin-top: -10px"></div>
-#### `r icon::fa("linkedin", size = 1)` <a href="https://www.linkedin.com/in/antoinebichat" target="_blank">antoinebichat</a>
-<div style = "margin-top: -10px"></div>
-#### `r icon::fa("link", size = 1)` <a href="https://abichat.github.io" target="_blank">abichat.github.io</a>
-<div style = "margin-top: -10px"></div>
-####`r icon::fa("envelope", size = 1)` <a href="mailto:abichat@enterome.com?subject=Presentation">abichat@enterome.com</a>
+# Thanks for your attention!
+
+<br>
+
+# Questions?
+
+
+<br>
+
+#### `r icon::fa("link", size = 1)` <a href="https://abichat.github.io" target="_blank">abichat.github.io</a> &emsp; `r icon::fa("github", size = 1)`  <a href="https://github.com/abichat" target="_blank">@abichat</a> &emsp; `r icon::fa("twitter", size = 1)` <a href="https://twitter.com/_abichat" target="_blank">@_abichat</a>
 
 
