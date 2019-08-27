@@ -5,7 +5,7 @@
 \title{My template for packages}
 \usage{
 init_package(mail = "antoine.bichat@mines-nancy.org", readme = TRUE,
-  news = TRUE, test = TRUE, spellcheck = TRUE)
+  news = TRUE, test = TRUE, spellcheck = TRUE, renv = TRUE)
 }
 \arguments{
 \item{mail}{character}
@@ -17,6 +17,8 @@ init_package(mail = "antoine.bichat@mines-nancy.org", readme = TRUE,
 \item{test}{logical}
 
 \item{spellcheck}{logical}
+
+\item{renv}{logical}
 }
 \description{
 My template for packages

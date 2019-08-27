@@ -2,7 +2,10 @@
 
 export(init_package)
 importFrom(glue,glue)
+importFrom(renv,init)
+importFrom(renv,install)
 importFrom(rstudioapi,navigateToFile)
+importFrom(rstudioapi,restartSession)
 importFrom(usethis,use_build_ignore)
 importFrom(usethis,use_description)
 importFrom(usethis,use_gpl3_license)
