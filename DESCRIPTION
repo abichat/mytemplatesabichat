@@ -6,7 +6,8 @@ Authors@R:
            family = "Bichat",
            role = c("aut", "cre"),
            email = "antoine.bichat@mines-nancy.org")
-Description: Provides several personal templates for reports or package creation.
+Description: Provides several personal templates for reports or
+    package creation.
 License: GPL-3
 URL: https://github.com/abichat/mytemplatesabichat
 BugReports: https://github.com/abichat/mytemplatesabichat/issues

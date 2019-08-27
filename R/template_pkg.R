@@ -56,11 +56,11 @@ init_package <- function(mail = "antoine.bichat@mines-nancy.org",
                          library(\\
                          usethis)\n
                          #### Initialization\n
-                         mytemplatesabichat::init_package\\
+                         # mytemplatesabichat::init_package\\
                          (mail = "{mail}",
-                                                          \\
-                         readme = {readme}, news = {news}
-                                                          \\
+                         #                                  \\
+                         readme = {readme}, news = {news},
+                         #                                  \\
                          test = {test}, spellcheck = {spellcheck})\n
                          # use_r() \n
                          {txt_test1}
