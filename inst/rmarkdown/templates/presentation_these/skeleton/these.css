@@ -128,6 +128,11 @@ a:hover {
   font-weight: normal;
 }
 
+div.title-text {
+  font-family: 'Yanone Kaffeesatz';
+  margin-right: 24%;
+}
+
 
 
 /* Slide without logo */
