@@ -43,11 +43,23 @@
   border: 10px solid #A9BCD7;
   color: white;
   text-shadow: none;
+  font-size: 30px;
 }
 
 .inverse h1, .inverse h2, .inverse h3 {
   color: white;
   text-shadow: none;
+  margin: 20px;
+}
+
+.inverse h1 {
+  font-size: 70px;
+}
+.inverse h2 {
+  font-size: 50px;
+}
+.inverse h3 {
+  font-size: 40px;
 }
 
 /******************************
@@ -76,7 +88,7 @@
   font-weight: 400;
   text-align: left;
   margin-left: 15px;
-  padding-top: 10px;
+  padding-top: 100px;
 }
 
 .title-slide h2  {
@@ -97,7 +109,7 @@
   font-size: 30px;
   text-align: left;
   margin-left: 15px;
-  margin-bottom: -30px;
+  margin-bottom: -20px;
 }
 
 /* line after h2 title */
@@ -136,6 +148,7 @@ hr, .title-slide h2::after, .mline h1::after {
 .end-slide h1 {
   font-size: 80px;
   color: #4B89B9;
+  margin-bottom: 130px;
 }
 
 .end-slide h2 {

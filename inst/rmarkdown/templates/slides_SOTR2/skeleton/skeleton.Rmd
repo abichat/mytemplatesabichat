@@ -170,7 +170,27 @@ if (TRUE) {
 
 <br>
 
-.Large[`r emo::ji("cry")` It does not always work.]
+.Large[`r emo::ji("cry")` It does not always work...]
+
+---
+# Decoupled code and output
+
+.pull-left[
+```{r plot-label, eval=FALSE, message=FALSE}
+library(ggplot2)
+
+ggplot(iris) + 
+  aes(Sepal.Length, Sepal.Width, 
+      color = Species) + 
+  geom_point() +
+  theme_minimal()
+```
+]
+
+.pull-right[
+```{r plot-label-out, ref.label="plot-label", echo=FALSE}
+```
+]
 
 ---
 # Maths
