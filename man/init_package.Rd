@@ -4,8 +4,14 @@
 \alias{init_package}
 \title{My template for packages}
 \usage{
-init_package(mail = "antoine.bichat@mines-nancy.org", readme = TRUE,
-  news = TRUE, test = TRUE, spellcheck = TRUE, renv = TRUE)
+init_package(
+  mail = "antoine.bichat@mines-nancy.org",
+  readme = TRUE,
+  news = TRUE,
+  test = TRUE,
+  spellcheck = TRUE,
+  renv = TRUE
+)
 }
 \arguments{
 \item{mail}{character}
