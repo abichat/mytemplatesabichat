@@ -11,7 +11,7 @@ This package contains my personal rmarkdown templates:
       - for my lessons,
       - for
         <a href="https://stateofther.github.io" target="_blank">State of
-        the R</a>.
+        the R</a> (2 versions).
 
 You can also use my package default setup with
 `mytemplatesabichat::init_package()`.

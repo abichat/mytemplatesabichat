@@ -21,7 +21,7 @@ This package contains my personal rmarkdown templates:
 * xaringan presentations:
   * during my PhD,
   * for my lessons,
-  * for <a href="https://stateofther.github.io" target="_blank">State of the R</a>.
+  * for <a href="https://stateofther.github.io" target="_blank">State of the R</a> (2 versions).
   
   
 You can also use my package default setup with `mytemplatesabichat::init_package()`.

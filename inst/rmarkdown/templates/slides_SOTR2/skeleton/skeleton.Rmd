@@ -1,0 +1,205 @@
+---
+title: "Very Long Title (Almost)"
+subtitle: "What"
+author: "Who"
+institute: "Where"
+date: "When"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["libs_sotr/sotr.css", "libs_sotr/sotr-fonts.css"]
+    self_contained: false
+    includes:
+      in_header: "libs_sotr/mathjax-equation-numbers.html"
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:10"
+      navigation:
+        scroll: false
+---
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{r icons-emojis, message=FALSE, echo=FALSE}
+# remotes::install_github("ropenscilabs/icon")
+# remotes::install_github("hadley/emo")
+```
+
+
+class: inverse, center, middle
+
+# Inverse slide
+
+Some text
+
+---
+# Hello World 
+
+You can write in *italic*, **bold**, ~~strikethrough~~, .cursive[cursive] or `code mode`.
+
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+<br>
+
+--
+
+- Unorderd
+
+- list
+ 
+  - with footnote.fn[1]
+  
+  - and [link](https://github.com/yihui/xaringan)
+  
+.footnote[
+[1] First footnote
+]
+
+---
+# Two-column layout `r icon::fa_columns(pull = "right")` 
+
+.pull-left[
+* This 
+
+* is an 
+
+  * unordered 
+  
+  * list
+]
+
+.pull-right[
+1 And
+
+2 this one
+
+4 is ordered
+]
+
+# Font size and color
+
+.Large[Large]
+.large[large]
+normal
+.small[small]
+.footnotesize[footnotesize]
+.scriptsize[scriptsize]
+.tiny[tiny]
+
+.red[red] 
+.blue[blue] 
+.blue-logo[blue-logo]
+.green[green] 
+.yellow[yellow] 
+.orange[orange] 
+.purple[purple] 
+.gray[gray] 
+
+---
+# Boxes `r icon::fa_box(pull = "right")`
+
+.content-box[Box with text]
+
+.content-box[Long box with text
+]
+
+.content-box[Long box with with `simple and R code with output`
+```
+just code
+```
+
+```{r}
+2 + 2
+```
+
+]
+
+---
+class: inverse, center, middle
+background-image: url(libs_sotr/sticker_sotr.png)
+background-size: 15%
+background-position: right 20px bottom 20px
+
+# Inverse with sticker
+
+
+
+---
+# Scroll the entire screen
+
+.scroll-output[
+```{r}
+iris
+```
+]
+
+
+---
+count: false
+# Scroll in boxes
+
+.pull-left[
+Size 8:
+.scroll-box-8[
+```{r}
+iris
+```
+]
+]
+
+.pull-right[
+Size 16:
+.scroll-box-16[
+```{r}
+iris
+```
+]
+]
+
+---
+# Code hightlight `r icon::fa_highlighter(pull = "right", animate = "spin")`
+
+```{r}
+if (TRUE) {
+{{ message("Very important!") }}
+}
+```
+
+<br>
+
+.Large[`r emo::ji("cry")` It does not always work.]
+
+---
+# Maths
+
+You can write $\LaTeX$ inline or outline:
+
+$$2+2 = 4$$
+
+Even aligned maths with references as in \eqref{good-eq}:
+
+\begin{align}
+\bar{X} & = X_1 + X_2 + \ldots + X_n \nonumber \\
+ & = \frac{1}{n}\sum_{i=1}^nX_i \label{good-eq}
+\end{align}
+
+
+---
+class: end-slide
+
+
+# Thanks!
+
+
+## `r icon::fa_envelope()`  <a href="mailto:antoine.bichat@mines-nancy.org?subject=SOTR">antoine.bichat@mines-nancy.org</a>
+## `r icon::fa_link()`  <a href="https://abichat.github.io" target="_blank">abichat.github.io</a>
+## `r icon::fa_twitter()` <a href="https://twitter.com/_abichat" target="_blank">@_abichat</a>
+## `r icon::fa_github()` <a href="https://github.com/abichat" target="_blank">@abichat</a>
+
+
+.pull-right[.blue-logo[.pull-down[
+Slides theme inspired from [Metropolis](https://github.com/pat-s/xaringan-metropolis), [UO](https://github.com/yihui/xaringan) and [Sydney](https://github.com/garthtarr/sydney_xaringan) themes.
+]]]
