@@ -16,17 +16,17 @@
   font-size: 25px;
 }
 
-.remark-slide-content > h1 {
+.remark-slide-content h1 {
   margin-top: 30px;
   margin-left: 0px;
   color: #4B89B9;
 }
 
-.remark-slide-content > h1:first-of-type {
+.remark-slide-content h1:first-of-type {
   margin-top: 10px;
 }
 
-.remark-slide-content > h1 {
+.remark-slide-content h1 {
   margin-top: 30px;
 }
 
@@ -337,6 +337,41 @@ blockquote, .blockquote {
   height:20em;
   overflow-y: scroll;
 }
+
+/******************************
+  Slide in
+******************************/
+
+.slide-in-left {
+  -webkit-animation: slideInFromLeft 1s ease-in;
+  animation: slideInFromLeft 1s ease-in ;
+}
+
+.slide-in-right {
+  -webkit-animation: slideInFromRight 1s ease-in;
+  animation: slideInFromRight 1s ease-in ;
+}
+
+@media print {
+  .slide-in-right, .slide-in-left {
+    animation: none;
+    -webkit-animation: none;
+  }
+}
+
+@page {
+  size: 1024px 768px;
+  margin: 0;
+}
+
+
+/************* animation ****************/
+
+@-webkit-keyframes slideInFromRight { 0% {transform: translateX(100%);}}
+@keyframes slideInFromRight { 0% { transform: translateX(100%); }}
+@-webkit-keyframes slideInFromLeft { 0% { transform: translateX(-100%); }}
+@keyframes slideInFromLeft { 0% { transform: translateX(-100%); }}
+
 
 /******************************
   Miscellanous from default

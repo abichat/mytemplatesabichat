@@ -164,13 +164,10 @@ iris
 
 ```{r}
 if (TRUE) {
-{{ message("Very important!") }}
+  message("Very important!") #<<
 }
 ```
 
-<br>
-
-.Large[`r emo::ji("cry")` It does not always work...]
 
 ---
 # Decoupled code and output
@@ -180,9 +177,9 @@ if (TRUE) {
 library(ggplot2)
 
 ggplot(iris) + 
-  aes(Sepal.Length, Sepal.Width, 
-      color = Species) + 
-  geom_point() +
+  aes(Sepal.Length, Sepal.Width, #<<
+      color = Species) + #<<
+  geom_point() + 
   theme_minimal()
 ```
 ]
@@ -206,6 +203,17 @@ Even aligned maths with references as in \eqref{good-eq}:
  & = \frac{1}{n}\sum_{i=1}^nX_i \label{good-eq}
 \end{align}
 
+---
+class: inverse, center, middle
+
+.slide-in-right[
+# Almost the end
+]
+
+.slide-in-left[
+Sliding from both sides `r emo::ji("wink")`
+]
+
 
 ---
 class: end-slide
@@ -221,5 +229,5 @@ class: end-slide
 
 
 .pull-right[.blue-logo[.pull-down[
-Slides theme inspired from [Metropolis](https://github.com/pat-s/xaringan-metropolis), [UO](https://github.com/yihui/xaringan) and [Sydney](https://github.com/garthtarr/sydney_xaringan) themes.
+Slides made with [xaringan](https://github.com/yihui/xaringan) and inspired from [Metropolis](https://github.com/pat-s/xaringan-metropolis), [UO](https://github.com/yihui/xaringan), [Kunoichi](https://github.com/emitanaka/ninja-theme) and [Sydney](https://github.com/garthtarr/sydney_xaringan) themes.
 ]]]
